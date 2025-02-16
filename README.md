@@ -9,33 +9,53 @@ This solution is a sample of tests against the Hudl login page, this is not a ex
 Testing Types NOT covered
 
 Functional
+
   o	Validation of elements such as colour/font etc
+  
   o	Further negative testing of input fields 
+  
   o	URL validations 
+  
   o	Grid running tests in parallel
+  
   o	Validation of other login types e.g. google, apple, Facebook
+  
   o	Validation of privacy policy links 
+  
   o	Validation for Terms of service 
+  
   o	Validation in other browsers such as Edge, Chrome & Safari
 
 Non-Functional Testing
+
   o	Soak testing (performance at expected volumes)
+  
   o	Stress testing (beyond acceptable volumes)
 
  Security (general penetration testing)	
+ 
   o	XSS (cross site scripting)
+  
   o	CSRF Cross site request forgery 
+  
   o	Validation of libraries and packages (ensure they are current and with zero vulnerabilities)
+  
   o	General DDoS (rate limits)
+  
   o	Data compliance e.g. tracking cookies in line with local laws
 
 Accessibility 
+
   o	Web Content Accessibility Guidelines (WCAG 2.1 2.2 etc)
   
-•SEO
+SEO
+
   o	Tracking cookies 
+  
   o	Tags firing 
+  
   o	Keyword/HREF lang compliance for google ranking
+  
 
 
 
