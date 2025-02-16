@@ -1,62 +1,51 @@
-Pre-Requisites to run this solution: 
-Python 3.12.2
-Selenium for Python selenium 4.28.1
-Firefox v135.0
+# **Pre-Requisites to run this solution:**
 
-Background
-This solution is a sample of tests against the Hudl login page, this is not a exhaustive suite of tests with full coverage. There are 3 categories of tests, E-mail, Password and Negative tests each as their own python script to run individually or as a group. Each script can be run with a IDE e.g PyCharm. 1 where the browser will run maximised. 
+**Python 3.12.2**  
+**Selenium for Python selenium 4.28.1**  
+**Firefox v135.0**
 
-Testing Types NOT covered
+---
 
-Functional
+## **Background**
 
-  o	Validation of elements such as colour/font etc
-  
-  o	Further negative testing of input fields 
-  
-  o	URL validations 
-  
-  o	Grid running tests in parallel
-  
-  o	Validation of other login types e.g. google, apple, Facebook
-  
-  o	Validation of privacy policy links 
-  
-  o	Validation for Terms of service 
-  
-  o	Validation in other browsers such as Edge, Chrome & Safari
+This solution is a sample of tests against the **Hudl login page**. This is not an exhaustive suite of tests with full coverage.  
 
-Non-Functional Testing
+There are **3 categories of tests**:  
+- **E-mail**  
+- **Password**  
+- **Negative tests**  
 
-  o	Soak testing (performance at expected volumes)
-  
-  o	Stress testing (beyond acceptable volumes)
+Each test is written as an individual Python script that can be run separately or as a group. Each script can be executed using an IDE, e.g., **PyCharm**, where the browser will run maximized.
 
- Security (general penetration testing)	
- 
-  o	XSS (cross site scripting)
-  
-  o	CSRF Cross site request forgery 
-  
-  o	Validation of libraries and packages (ensure they are current and with zero vulnerabilities)
-  
-  o	General DDoS (rate limits)
-  
-  o	Data compliance e.g. tracking cookies in line with local laws
+---
 
-Accessibility 
+## **Testing Types NOT Covered**
 
-  o	Web Content Accessibility Guidelines (WCAG 2.1 2.2 etc)
-  
-SEO
+### **Functional**
+- Validation of elements such as **colour/font**, etc.  
+- Further negative testing of **input fields**  
+- **URL validations**  
+- Grid running tests in parallel  
+- Validation of other login types (e.g., **Google, Apple, Facebook**)  
+- Validation of **privacy policy links**  
+- Validation for **Terms of Service**  
+- Validation in other browsers such as **Edge, Chrome, & Safari**  
 
-  o	Tracking cookies 
-  
-  o	Tags firing 
-  
-  o	Keyword/HREF lang compliance for google ranking
-  
+### **Non-Functional Testing**
+- **Soak testing** (performance at expected volumes)  
+- **Stress testing** (beyond acceptable volumes)  
 
+### **Security (General Penetration Testing)**  
+- **XSS (Cross-Site Scripting)**  
+- **CSRF (Cross-Site Request Forgery)**  
+- Validation of **libraries and packages** (ensuring they are current and have zero vulnerabilities)  
+- General **DDoS (rate limits)**  
+- **Data compliance** (e.g., tracking cookies in line with local laws)  
 
+### **Accessibility**  
+- **Web Content Accessibility Guidelines (WCAG 2.1, 2.2, etc.)**  
 
-
+### **SEO**  
+- **Tracking cookies**  
+- **Tags firing**  
+- **Keyword/HREF lang compliance** for Google ranking  
